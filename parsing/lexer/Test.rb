@@ -1,4 +1,4 @@
-require './ListLexer.rb'
+require_relative 'ListLexer.rb'
 
 lexer = ListLexer.new(ARGV[0])
 

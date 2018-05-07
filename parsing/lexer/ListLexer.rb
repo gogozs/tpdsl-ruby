@@ -1,5 +1,5 @@
-require './Token.rb'
-require './Lexer.rb'
+require_relative 'Token.rb'
+require_relative 'Lexer.rb'
 
 class ListLexer < Lexer
     NAME = 2
